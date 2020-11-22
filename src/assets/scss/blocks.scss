@@ -1,11 +1,29 @@
-/*BEGIN ->  .header*/
-.header {
+/*BEGIN ->  .e-header*/
+.e-header {
+  background-color: #574943;
+  background-image: url("../assets/img/bg.jpg");
 
+  &__social {
+    th {
+      text-align: right;
+    }
+    img {
+      display: inline;
+    }
+  }
+
+  &__title {
+    font: 24px $font;
+    font-weight: bold;
+
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
-/*END -> .header*
+/*END -> .e-header*/
 
-/*BEGIN . ->  .footer*/
-.footer {
-
+/*BEGIN . ->  .e-footer*/
+.e-footer {
 }
-/*END . -> .footer*/
+/*END . -> .e-footer*/
