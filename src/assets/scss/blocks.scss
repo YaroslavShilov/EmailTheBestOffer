@@ -2,6 +2,7 @@
 .e-header {
   background-color: #574943;
   background-image: url("../assets/img/bg.jpg");
+  background-position: top left;
 
   &__social {
     th {
@@ -13,10 +14,10 @@
   }
 
   &__title {
-    font: 24px $font;
+    font: 24px/34px $font;
     font-weight: bold;
 
-    color: $white;
+    color: $title_color;
     text-transform: uppercase;
     text-align: center;
   }
