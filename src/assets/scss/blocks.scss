@@ -24,6 +24,29 @@
 }
 /*END -> .e-header*/
 
+/*BEGIN .e-teaser */
+.e-teaser {
+  margin-top: -34px;
+
+  &__inner {
+    background-color: #f1f1f2;
+    border-bottom: 5px solid $border_color;
+  }
+
+  &__item {
+    max-width: 120px;
+    width: 120px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    img {
+      display: inline-block;
+    }
+  }
+}
+/*END .e-teaser */
+
 /*BEGIN . ->  .e-footer*/
 .e-footer {
 }
