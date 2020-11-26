@@ -56,4 +56,13 @@ a:hover {
     border: 1px solid #7a695a;
     text-transform: uppercase;
   }
+
+  &--price a {
+    padding: 9px 38px 8px;
+
+    font-size: 12px;
+
+    background-color: #7a695a;
+    text-transform: uppercase;
+  }
 }

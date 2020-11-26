@@ -47,7 +47,32 @@
 }
 /*END .e-teaser */
 
+/*BEGIN .e-products */
+.e-products {
+  &__item {
+    padding: 20px 10px 14px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__price {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #040506;
+    text-align: center;
+  }
+}
+/*END .e-products */
+
 /*BEGIN . ->  .e-footer*/
 .e-footer {
+  background-color: #ececec;
+
+  &__inner {
+    text-align: center;
+  }
 }
 /*END . -> .e-footer*/
