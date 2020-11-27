@@ -52,42 +52,43 @@ subject: The Best Offer
   <container>
     <row class="e-teaser__inner">
       <columns>
-        <spacer size="34"></spacer>
-        <container>
-          <row>
-            <columns small="4">
-              <div class="e-teaser__item">
-                <img src="assets/img/icon_1.png" alt="Icon" />
-                <spacer size="12"></spacer>
-                <div>У нас есть лапки</div>
-              </div>
-            </columns>
-
-            <columns small="4">
-              <div class="e-teaser__item">
-                <img src="assets/img/icon_2.png" alt="Icon" />
-                <spacer size="12"></spacer>
-                <div>... и бумажные самолётики</div>
-              </div>
-            </columns>
-
-            <columns small="4">
-              <div class="e-teaser__item">
-                <img src="assets/img/icon_3.png" alt="Icon" />
-                <spacer size="12"></spacer>
-                <div>Кроме того, у нас есть чемодан</div>
-              </div>
-            </columns>
-          </row>
-        </container>
+        <spacer size="10"></spacer>
+        <table class="e-teaser__blocks">
+          <tbody>
+            <tr>
+              <td class="e-teaser__item">
+                <div>
+                  <img src="assets/img/icon_1.png" alt="Icon" />
+                  <spacer size="12"></spacer>
+                  <div>У нас есть лапки</div>
+                </div>
+              </td>
+              <td class="e-teaser__item">
+                <div>
+                  <img src="assets/img/icon_2.png" alt="Icon" />
+                  <spacer size="12"></spacer>
+                  <div>И бумажные самолётики</div>
+                </div>
+              </td>
+              <td class="e-teaser__item">
+                <div>
+                  <img src="assets/img/icon_3.png" alt="Icon" />
+                  <spacer size="12"></spacer>
+                  <div>Кроме того, у нас есть чемодан</div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </columns>
     </row>
 
     <row>
       <columns>
         <spacer size="45"></spacer>
-        <div class="e-btn e-btn--outlined">
+        <div class="e-btn e-btn--outlined e-teaser__btn">
           <a href="#">Заказывая сейчас - получаете скидку</a>
+          <a href="#">Получить скидку</a>
         </div>
         <spacer size="10"></spacer>
       </columns>
@@ -97,7 +98,7 @@ subject: The Best Offer
 
 <div class="e-products">
   <container>
-    <row>
+    <row class="collapse">
       <columns small="6">
         <div class="e-products__item">
           <img src="assets/img/items/1.jpg" alt="Product" />
@@ -118,7 +119,7 @@ subject: The Best Offer
       </columns>
     </row>
 
-    <row>
+    <row class="collapse">
       <columns small="6">
         <div class="e-products__item">
           <img src="assets/img/items/3.jpg" alt="Product" />
@@ -139,7 +140,7 @@ subject: The Best Offer
       </columns>
     </row>
 
-    <row>
+    <row class="collapse">
       <columns small="6">
         <div class="e-products__item">
           <img src="assets/img/items/1.jpg" alt="Product" />
@@ -165,10 +166,12 @@ subject: The Best Offer
 
 <div class="e-footer">
   <container>
+    <spacer size="20"></spacer>
     <row>
       <columns>
         <div class="e-footer__inner">ООО "Лучшее предложение"</div>
       </columns>
     </row>
+    <spacer size="4"></spacer>
   </container>
 </div>

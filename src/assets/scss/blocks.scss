@@ -33,14 +33,41 @@
     border-bottom: 5px solid $border_color;
   }
 
+  &__blocks > tbody > tr {
+    text-align: center;
+  }
+
   &__item {
-    max-width: 120px;
-    width: 120px;
-    margin: 0 auto;
+    padding-top: 24px;
 
     text-align: center;
 
+    div {
+      width: 120px;
+      margin: 0 auto;
+    }
+
     img {
+      display: inline-block;
+    }
+  }
+
+  &__btn a:last-child {
+    display: none;
+  }
+
+  @include media(560px) {
+    &__btn a {
+      display: none;
+    }
+
+    &__btn a:last-child {
+      display: inline-block;
+    }
+  }
+
+  @include media(430px) {
+    &__item {
       display: inline-block;
     }
   }
@@ -50,7 +77,7 @@
 /*BEGIN .e-products */
 .e-products {
   &__item {
-    padding: 20px 10px 14px;
+    padding: 20px 20px 14px;
     img {
       width: 100%;
       height: auto;
@@ -64,6 +91,13 @@
     color: #040506;
     text-align: center;
   }
+
+  @include media(470px) {
+    &__item {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
 }
 /*END .e-products */
 
@@ -72,6 +106,9 @@
   background-color: #ececec;
 
   &__inner {
+    font-size: 12px;
+
+    color: #a1a1a1;
     text-align: center;
   }
 }

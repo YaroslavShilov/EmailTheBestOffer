@@ -46,7 +46,7 @@ a:hover {
   }
 
   &--outlined a {
-    padding: 10px 35px;
+    padding: 10px 30px;
 
     letter-spacing: 4px;
     line-height: 24px;
@@ -55,6 +55,7 @@ a:hover {
     background-color: transparent;
     border: 1px solid #7a695a;
     text-transform: uppercase;
+    text-align: center;
   }
 
   &--price a {
@@ -64,5 +65,10 @@ a:hover {
 
     background-color: #7a695a;
     text-transform: uppercase;
+
+    @include media(440px) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
   }
 }
